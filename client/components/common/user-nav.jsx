@@ -17,10 +17,7 @@ export function UserNav() {
   const { onOpen } = useModal();
   const logOut = useLogOut();
   const { user } = useCurrentUser();
-  const initials = user.name
-    .split(" ")
-    .map((word) => word[0])
-    .join("");
+  const initials = user?.name?.split(" ")?.map((word) => word[0])?.join("");
 
   return (
     <DropdownMenu>

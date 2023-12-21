@@ -41,7 +41,7 @@ export const AuthLayout = () => {
               your books and returns, discover new titles. Join us at BookYard,
               where we&apos;re cultivating minds, one book at a time! 📚.&rdquo;
             </p>
-            <footer>~ Navdeep Khede</footer>
+            
           </blockquote>
         </div>
       </div>
