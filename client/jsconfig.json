@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "paths": {
+        "@/*": ["./*"]
+        }
+    },
+    "include": ["./src/**/*.js", "./src/**/*.jsx", "utils/queryClient.js"],
+    "exclude": ["node_modules"]
+  }
